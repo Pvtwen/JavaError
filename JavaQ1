@@ -1,0 +1,12 @@
+public static void main(String[] args) {
+        String s="";
+
+        System.out.println(s=="");      //结果返回true
+    }
+    
+    public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+        String s=scanner.nextLine();      //从键盘输入回车
+
+        System.out.println(s=="");    //false
+    }
